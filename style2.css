@@ -1,0 +1,41 @@
+body {
+    background-image: url(./la1Hy5i-funny-star-wars-wallpapers.jpg);
+    background-size: cover;
+}
+
+.hidden-button {
+    background:transparent;
+    color: transparent;
+    height: 4rem;
+    width: 4rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+.first-button {
+    margin-left: 19rem;
+    margin-top: 21rem;
+}
+
+.second-button {
+    margin-left: 37.5rem;
+    margin-top: -5rem;
+}
+.third-button {
+    margin-left: 54.5rem;
+    margin-top: -3rem;
+}
+.fourth-button {
+    margin-left: 70rem;
+    margin-top: -5.5rem;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    color: white;
+}

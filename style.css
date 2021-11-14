@@ -1,0 +1,36 @@
+body {
+    background-image:url(./719100.jpg);
+    background-size: cover;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+
+button {
+    height: 10rem;
+    width: 40rem;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50px;
+    background: rgb(129, 152, 158);
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.r2d2 {
+    position: absolute;
+    right: 0%;
+    height: 2rem;
+}
+
+.stormtrooper {
+    position: absolute;
+    left: 0%;
+    height: 2rem;
+}
