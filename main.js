@@ -28,5 +28,8 @@ function typeAnswer() {
     if (prompt("Please enter the password") == "YMCA"){
         document.getElementById("ymcaSound").play();
         alert("Correct!");
+        alert("Move to next task");
+        window.location.href = "./page3.html";
+
     }
 }
