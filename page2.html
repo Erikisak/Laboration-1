@@ -11,19 +11,24 @@
 <body>
     <h1>Press each head to find clues</h1>
 
+    <div>
+        <button class="answer" onclick="typeAnswer()">Type in correct answer</button>
+    </div>
+
     <div class="first-button">
-        <button class="hidden-button" onclick="pressHead()"></button>
+        <button class="hidden-button" onclick="pressHead1()"></button>
     </div>
 
     <div class="second-button">
-        <button class="hidden-button" onclick="pressHead()"></button>
+        <button class="hidden-button" onclick="pressHead2()"></button>
     </div>
     <div class="third-button">
-        <button class="hidden-button" onclick="pressHead()"></button>
+        <button class="hidden-button" onclick="pressHead3()"></button>
     </div>
     <div class="fourth-button">
-        <button class="hidden-button" onclick="pressHead()"></button>
+        <button class="hidden-button" onclick="pressHead4()"></button>
     </div>
-
+    
+    <audio id="ymcaSound" src="YMCA.mp3" preload="auto" ></audio>
 </body>
 </html>

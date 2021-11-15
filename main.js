@@ -12,8 +12,21 @@ function pressStorm() {
     alert ("Password: May the force be with you");
 }
 
-function pressHead() {
-    const firstClue = prompt ("Please enter first clue")
-    document.getElementsByClassName("first button")
-
+function pressHead1() {
+    alert ("Y")
+}
+function pressHead2() {
+    alert ("M")
+}
+function pressHead3() {
+    alert ("C")
+}
+function pressHead4() {
+    alert ("A")
+}
+function typeAnswer() {
+    if (prompt("Please enter the password") == "YMCA"){
+        document.getElementById("ymcaSound").play();
+        alert("Correct!");
+    }
 }
