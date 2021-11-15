@@ -8,13 +8,13 @@ body {
     color: transparent;
     height: 4rem;
     width: 4rem;
-    border: transparent;
+/*     border: transparent; */
     cursor: pointer;
 }
 
 .first-button {
     margin-left: 19rem;
-    margin-top: 21rem;
+    margin-top: 19rem;
 }
 
 .second-button {
@@ -35,7 +35,4 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-ul {
-    color: white;
 }

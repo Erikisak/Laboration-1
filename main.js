@@ -12,6 +12,8 @@ function pressStorm() {
     alert ("Password: May the force be with you");
 }
 
-function clickMe() {
-    prompt ("Hej")
+function pressHead() {
+    const firstClue = prompt ("Please enter first clue")
+    document.getElementsByClassName("first button")
+
 }
