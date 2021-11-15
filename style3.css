@@ -1,0 +1,10 @@
+h1, h2 {
+    color: white;
+}
+body {
+    background-image: url(./images/wp5207820-darth-vader-desktop-4k-wallpapers.jpg);
+    background-size: cover;
+}
+button {
+    cursor: pointer;
+}
