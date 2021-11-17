@@ -21,7 +21,12 @@ function addLuke() {
 }
 function addObi() {
     const addObi = alert ("You have chosen Obi Wan Kenobi");
+
+    const choice1 = prompt("Hello Master Kenobi! Do you want to use your force or your lightsaber"); 
+
 }
+
+
 
 function addYoda() {
     const addYoda = alert ("You have chosen Master Yoda");
@@ -48,6 +53,20 @@ function addYoda() {
         else if(choice3)
             alert("Wrong choice, Vader defeated you");
     }
+
+    const choice4 = prompt("Darth Vader is still alive, what do you want to do? Type in 'try new character' or 'attack again' ");
+    if(choice4 === "try new character")
+        confirm("Choose Obi-Wan or Luke to defeat Darth Vader");
+    
+    if(choice4 === "attack again") {
+        const choice5 = prompt("Vader is weak, how do you want to attack him? Type in 'force' or 'lightsaber'")
+            if(choice5 === "force")
+                alert("You grabbed Vaders lightsaber with the force, he is defeated");
+            if(choice5 === "lightsaber")
+                alert("You cut Vaders head off, he is defeated");
+    
+    }
+
 
 
 }

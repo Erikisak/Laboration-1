@@ -1,18 +1,54 @@
 h1, h2 {
     color: white;
 }
+
+h2 {
+    margin-left: 8rem;
+}
+
 body {
     background-image: url(./images/wp5207820-darth-vader-desktop-4k-wallpapers.jpg);
     background-size: cover;
 }
 button {
     cursor: pointer;
-    margin-left: 3rem;
+    height: 17rem;
+    width: 7rem;
+    border: transparent;
+    background: transparent;
 }
 .yoda {
     height: 10rem;
-    margin-left: 23rem;
+    margin-left: 5rem;
+    margin-top: -5rem;
 }
+
+.kenobi{
+    height: 13rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
 #text {
     color: white;
 }
+
+#yoda {
+    margin-top: 10rem;
+}
+
+.luke-button {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+ }
+ .luke-button img {
+    width: 100%;
+    height: auto;
+ }
+ .luke-button #luke {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
