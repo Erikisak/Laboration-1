@@ -27,11 +27,13 @@ button {
     position: absolute;
     right: 0%;
     height: 2rem;
+    cursor: pointer;
 }
 
 .stormtrooper {
     position: absolute;
     left: 0%;
     height: 2rem;
+    cursor: pointer;
 }
 
