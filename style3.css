@@ -2,8 +2,12 @@ h1, h2 {
     color: white;
 }
 
+h1 {
+    margin-left: 3rem;
+}
+
 h2 {
-    margin-left: 8rem;
+    margin-left: 13rem;
 }
 
 body {
@@ -31,4 +35,13 @@ button {
 .yoda {
     height: 12rem;
     margin-left: 3.5rem;
+}
+
+.password-btn {
+    margin-top: 24rem;
+    margin-left: -4rem;
+}
+
+#password {
+    border-radius: 20px;
 }
