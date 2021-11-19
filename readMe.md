@@ -7,5 +7,7 @@ Jag är väldigt ny i Javascript och har därför valt att bara använda mig av 
 
 Sidorna jag skapat är inte responsiva så för att css ska hänga med så behövs det köras i helskärmsläge.
 
-https://github.com/Erikisak/Laboration-1
+
+Demo-länk
+https://erikisak.github.io/Laboration-1/
 
