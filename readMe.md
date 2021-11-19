@@ -5,5 +5,7 @@ Uppgiften i laboration 1 går ut på att skapa en textbaserad interaktiv uppleve
 
 Jag är väldigt ny i Javascript och har därför valt att bara använda mig av alerts och prompts. Jag valde att sätta ett tema på mitt äventyr, Star wars. Genom att göra det så tyckte jag det var enklare att komma på olika funktioner att intergrera med. 
 
+Sidorna jag skapat är inte responsiva så för att css ska hänga med så behövs det köras i helskärmsläge.
+
 https://github.com/Erikisak/Laboration-1
 
